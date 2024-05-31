@@ -1,0 +1,177 @@
+:root {
+  --grid_col: 1;
+}
+@media (min-width: 479px) {
+  :root {
+    --grid_col: 2;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    --grid_col: 3;
+  }
+}
+@media (min-width: 1299px) {
+  :root {
+    --grid_col: 3;
+  }
+}
+@media (min-width: 1399px) {
+  :root {
+    --grid_col: 4;
+  }
+}
+@media (min-width: 1540px) {
+  :root {
+    --grid_col: 5;
+  }
+}
+@media (min-width: 2399px) {
+  :root {
+    --grid_col: 6;
+  }
+}
+
+/*------------- color variables ------------*/
+/*------------- color variables ------------*/
+/*----------------- responsive variations -----------------*/
+body {
+  background-color: #2F3293;
+}
+body .container {
+  width: 100%;
+}
+body .container .pageHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
+}
+body .container .pageHeader .logo img {
+  width: 48px;
+  height: 48px;
+}
+body .container .pageHeader .navBar {
+  display: flex;
+}
+body .container .pageHeader .navBar ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+body .container .pageHeader .navBar ul li {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+body .container .pageHeader .navBar ul li a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body .container .pageHeader .navBar ul li a:hover {
+  color: #DE8F35;
+  border-bottom: 2px solid #DE8F35;
+}
+body .container .pageHeader .rightHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+body .container .pageHeader .rightHeader .contactUs .contactBtn {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #2F3293;
+  color: #FFFFFF;
+}
+body .container .pageHeader .rightHeader .contactUs .contactBtn:hover {
+  color: #DE8F35;
+}
+body .container .mainSection {
+  width: 100%;
+  display: flex;
+  padding-top: 96px;
+  gap: 146px;
+}
+body .container .mainSection .leftSection {
+  max-width: 586px;
+  width: 50%;
+}
+body .container .mainSection .leftSection .upperPortion {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .mainSection .leftSection .upperPortion .forCompany {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+body .container .mainSection .leftSection .lowerPortion {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .mainSection .leftSection .lowerPortion .companyServices {
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+}
+body .container .mainSection .leftSection .lowerPortion .companyServices span {
+  color: #DE8F35;
+  display: flex;
+  gap: 30px;
+}
+body .container .mainSection .leftSection .companyExpertise {
+  max-width: 586px;
+  display: flex;
+  gap: 24px;
+  padding-top: 64px;
+  position: relative;
+}
+body .container .mainSection .leftSection .companyExpertise .arrowIcon {
+  margin-top: -57px;
+}
+body .container .mainSection .leftSection .companyExpertise h2 {
+  font-size: 24px;
+  line-break: 32px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+}
+body .container .mainSection .leftSection .companyExpertise h2 span {
+  color: #DE8F35;
+}
+body .container .mainSection .leftSection .companyExpertise .threeLineArrow {
+  position: absolute;
+  bottom: -30px;
+  right: 25px;
+  padding-right: 76px;
+}
+body .container .mainSection .rightSection {
+  width: 50%;
+}
+body .container .mainSection .rightSection .companyImg {
+  height: 560px;
+  width: 464px;
+  border-radius: 232px 232px 24px 24px;
+}
+body .container .secondSection {
+  padding-top: 80px;
+}
+body .container .secondSection .nav-link {
+  color: #FFFFFF;
+}
+body .container .secondSection .nav-link.active {
+  background-color: #2F3293;
+}
+body .container .secondSection .sectionEndIcon {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 54px;
+}/*# sourceMappingURL=style.css.map */

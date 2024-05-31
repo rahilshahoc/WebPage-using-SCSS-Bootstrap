@@ -1,0 +1,147 @@
+@import "_variables";
+body {
+    background-color: $pageColor;
+    .container {
+        width: 100%;
+        .pageHeader {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 48px;
+            .logo {
+                img {
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+            .navBar {
+                display: flex;
+                ul{
+                    display: flex;
+                    gap: 32px;
+                    list-style: none;
+                    li {
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 700;
+                        a {
+                            padding-bottom: 10px;
+                            text-decoration: none;
+                            color: $pureWhite;
+                            &:hover {
+                                color: $darkBrown;
+                                border-bottom: 2px solid $darkBrown;
+                            }
+
+                        }
+                    }
+                }
+            }
+            .rightHeader {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                .contactUs {
+                    .contactBtn {
+                        border: none;
+                        outline: none;
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 700;
+                        background-color: $pageColor;
+                        color: $pureWhite;
+                        &:hover {
+                            color: $darkBrown;
+                        }
+                    }
+                }
+            }
+        }
+        .mainSection {
+            width: 100%;
+            display: flex;
+            padding-top: 96px;
+            gap: 146px;
+            .leftSection {
+                max-width: 586px;
+                width: 50%;
+                .upperPortion {
+                    display: flex;
+                    justify-content: space-between;
+                    .forCompany {
+                        font-size: 12px;
+                        line-height: 20px;
+                        font-weight: 700;
+                        color: $pureWhite;
+                    }
+                }
+                .lowerPortion {
+                    display: flex;
+                    justify-content: space-between;
+                    .companyServices {
+                        font-size: 96px;
+                        line-height: 96px;
+                        font-weight: 700;
+                        color: $pureWhite;
+                        font-family: $Lato;
+                        span {
+                            color: $darkBrown;
+                            display: flex;
+                            gap: 30px;
+                        }
+                    }
+                }
+                .companyExpertise {
+                    max-width: 586px;
+                    display: flex;
+                    gap: 24px;
+                    padding-top: 64px;
+                    position: relative;
+                    .arrowIcon {
+                        margin-top: -57px;
+                    }
+                    h2 {
+                        font-size: 24px;
+                        line-break: 32px;
+                        font-weight: 400;
+                        font-family: $Lato;
+                        color: $pureWhite;
+                        span {
+                            color: $darkBrown;
+                        }
+                    }
+                    .threeLineArrow {
+                        position: absolute;
+                        bottom: -30px;
+                        right: 25px;
+                        padding-right: 76px;
+                    }
+                }
+            }
+            .rightSection {
+                width: 50%;
+                .companyImg {
+                    height: 560px;
+                    width: 464px;
+                    border-radius: 232px 232px 24px 24px;
+                }
+            }
+        }
+        .secondSection {
+            padding-top: 80px;
+
+            .nav-link {
+                color: $pureWhite;
+                &.active {
+                    background-color: $pageColor;
+                }
+            }
+            .sectionEndIcon {
+                display: flex;
+                justify-content: flex-end;
+                padding-top: 54px;
+            }
+        }
+    }
+}
